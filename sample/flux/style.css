@@ -47,9 +47,10 @@
  }
  .parent{
     display: flex;
-    overflow: hidden;
+    overflow-y: hidden;
  }
- .asd{
+ img{
     width: 300px;
     height: 300px;
- }
+    margin: 10px;
+ } 

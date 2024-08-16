@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-container {
+    overflow: auto; /* Ensure scrolling works */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Set the width of the vertical scrollbar */
+/* Set the width of the vertical scrollbar */
+.scroll-container::-webkit-scrollbar {
+    width: 16px; /* Adjust to desired thickness */
+}
+
+scroll-container::-webkit-scrollbar-horizontal {
+    height: 16px; /* Adjust to desired thickness */
+}
+
+/* Set the height of the horizontal scrollbar */
+.scroll-container::-webkit-scrollbar-horizontal {
+    height: 16px; /* Thickness of horizontal scrollbar */
+}
+
+/* Style the track (background) of the scrollbar */
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1d5; /* Background color of the track */
+    border-radius: 8px; /* Round the corners of the track */
+}
+
+/* Style the thumb (draggable part) of the scrollbar */
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #390575; /* Color of the thumb */
+    border-radius: 8px; /* Round the corners of the thumb */
+    border: 4px solid #f1f1f1; /* Border around the thumb */
+}
+
+/* Change the thumb color on hover */
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb on hover */
+}
+
+/* Style the corner where both horizontal and vertical scrollbars meet */
+.scroll-container::-webkit-scrollbar-corner {
+    background: #f1f1f1; /* Background color of the corner */
+}
+
+
+.content {
+    display: flex;
+    overflow-y: hidden;
+    box-sizing: border-box; /* Changed from -webkit-scrollbar-button */
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
