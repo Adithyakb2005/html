@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+    .nav{
+
+        padding: 5px;    
+        display: flex;   
+        justify-content: space-between;
+        background-color: white;
+        color: rgb(94, 90, 90);
+        font-size: 20px;
+        position: sticky;
+        top: 0;
+        }
+    span{
+        margin: 10px;
+    }
+    .image{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        /* max-width: 70%; */
+        /* max-height: 50%;  */
+        flex: 2;
+    }
+    .img{
+        background-color: aquamarine;
+        width: 100%;
+        height: 50vh;
+    }
+.img img{
+    width:100%;
+    height:100%;
+}
+    .right1{
+        /* margin-top: 40px; */
+        background-color: rgb(1, 4, 43);
+        color:white ;
+        flex: 1;
+        min-width: 30%;
+        padding:20px;
+    }
+
+    hr{
+        padding:0;
+        color:cadetblue;
+    }
+    
+    .limg{
+        display:flex
+    }
+
+    .ltext{
+        flex:1;
+        margin: 20px;;
+        
+    }
+
+    .rtext{
+        flex: 1;
+        /* margin: 20px; */
+        /* padding: 20px; */
+        
+    }
+    h2{
+        padding: 20px;
+    } 
+    .y{
+        color: orange;
+
+    }
+    h3{
+        padding:20px
+    }
+    h5{
+        padding:10px;
+    }
+    .p1{
+        padding:20px;
+    }
+    .p{
+        padding:20px;
+    }
+    button{
+        color: rgb(0, 0, 0);
+        background-color: rgb(222, 71, 71);
+        border: 0;
+        padding:10px;
+        margin:20px;
+    }
+    .second{
+        display:flex
+    }
+    .sec1{
+        display:flex;
+        flex:1;
+        padding:10px;
+        /* background-color: aqua; */
+    }
+    .text11{
+        padding:10px;
+    }
+    .p4{
+        padding:10px;
+    }
+    
