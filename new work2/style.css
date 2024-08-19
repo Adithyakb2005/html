@@ -37,7 +37,7 @@
 }
     .right1{
         /* margin-top: 40px; */
-        background-color: rgb(1, 4, 43);
+        background-color: rgb(1, 2, 14);
         color:white ;
         flex: 1;
         min-width: 30%;
@@ -68,8 +68,10 @@
     h2{
         padding: 20px;
     } 
-    .y{
-        color: orange;
+    .right1>h1{
+        font-family: "Work Sans", sans-serif;
+        /* font-size: 20px; */
+        color: rgb(247, 188, 79);
 
     }
     h3{
@@ -79,16 +81,23 @@
         padding:10px;
     }
     .p1{
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        color: rgb(92, 92, 92);
         padding:20px;
     }
     .p{
+        font-family: "Work Sans", sans-serif;
+        color: rgb(155, 155, 155);
         padding:20px;
     }
     button{
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 2px;
         color: rgb(0, 0, 0);
-        background-color: rgb(222, 71, 71);
+        background-color: rgb(231, 81, 81);
         border: 0;
-        padding:10px;
+        padding:15px;
         margin:20px;
     }
     .second{
@@ -104,6 +113,10 @@
         padding:10px;
     }
     .p4{
+        font-size: 20px;
         padding:10px;
+    }
+    .text11>h1{
+        color: rgb(228, 150, 163);
     }
     
