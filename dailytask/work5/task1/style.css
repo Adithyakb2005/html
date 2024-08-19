@@ -1,0 +1,112 @@
+
+    *{
+      font-family: 'Kumbh Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .center__max-width {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      position: relative;
+    }
+    .navbar{
+        /* margin: 0; */
+        padding:20px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .toggle-logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      margin-left: 20px;
+    }
+    .menu-toggle {
+      display: none;
+    }
+    .menu-toggle:checked  .navigation__menu {
+      display: block;
+    }
+    .navigation__menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #fff;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .navigation__menu li {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    .navigation__menu li:last-child {
+      border-bottom: none;
+    }
+    .navigation__menu a {
+      text-decoration: none;
+      color: #333;
+    }
+    .menu-label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .menu-label svg {
+      margin-right: 10px;
+    }
+    .image-cart {
+      display: flex;
+      align-items: center;
+    }
+    .cart, .user__anchor img {
+      margin-left: 20px;
+    }
+    .main__image {
+      width: 100%;
+      height: auto;
+    }
+    .thumbnails__container {
+      display: flex;
+      margin-top: 20px;
+    }
+    .thumbnail__image {
+      width: 60px;
+      height: auto;
+      margin-right: 10px;
+    }
+    .box.content {
+      padding: 20px;
+    }
+    .btn-add {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .input__number-of-items {
+      width: 60px;
+      text-align: center;
+      margin: 0 10px;
+    }
+    .add_cart>button{
+      background-color: #f15c2f;
+      color: #080101;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .add__to-cart svg {
+      margin-right: 10px;
+    }
