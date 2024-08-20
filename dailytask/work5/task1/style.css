@@ -1,69 +1,129 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    *{
-      font-family: 'Kumbh Sans', sans-serif;
-    
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      background-color: #fafafa;
-      position: relative;
-    }
-    .navbar{
-        /* margin: 0; */
-        padding:20px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .right{
-      /* background-color: #f15c2f; */
-      display: flex;
-      justify-content: left;
-      color: rgb(109, 106, 106);
-      padding: 10px;
-    }
-  
-  
-    .image-cart {
-      display: flex;
-      align-items:center;
-      justify-content: right;
-      
-    }
-  
-    .navbar {
-      width: 100%;
-      height: auto;
-    }
-    .n1 {
-      display: flex;
-      margin-top: 20px;
-    }
-    .nav1{
-      width: 60px;
-      height: auto;
-      margin-right: 10px;
-    }
-    .box_content{
-      padding: 25px;
-    }
-   
-    .add_cart>button{
-      background-color: #f15c2f;
-      color: #080101;
-      border: none;
-      padding: 10px 20px;
-     
-    }
-    .box_content>button{
-      background-color: black;
-      color: azure;
-      border-radius: 2%;
-    }
+body {
+  background-color: #f4f4f4;
+  font-size: 16px; /* Base font size */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #fafafa; /* Light background for navigation */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left img {
+  height: 20px;
+  margin-right: 30px;
+}
+
+.left p {
+  margin-right: 20px;
+  color: gray;
+  font-size: 15px;
+  cursor: pointer; /* Indicate clickable items */
+}
+
+.image-cart {
+  display: flex;
+  align-items: center;
+}
+
+.image-cart img {
+  margin-left: 15px;
+  cursor: pointer; /* Indicate clickable items */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the start */
+  width: 80%;
+  margin: 20px auto; /* Center the content and add margin */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  width: 100%;
+}
+
+.main__image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center the main image horizontally */
+  margin-bottom: 20px; /* Space between main image and thumbnails */
+}
+
+.main__image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center thumbnails horizontally */
+  width: 100%;
+}
+
+.thumbnails img {
+  width: 60px; /* Fixed width for thumbnails */
+  height: auto;
+  margin-bottom: 10px; /* Space between thumbnails */
+  cursor: pointer; /* Indicate clickable items */
+}
+
+.box_content {
+  flex: 1;
+  padding: 20px;
+  background-color: white; /* Background for content box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.box_content p {
+  margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.box_content h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.box_content h2 {
+  color: #f15c2f; /* Highlighted price color */
+  margin-bottom: 15px;
+}
+
+.box_content button {
+  background-color: black;
+  color: azure;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px; /* Space above button */
+}
+
+.box_content button:hover {
+  background-color: #333; /* Darker color on hover */
+}
+
+.box_content li {
+  list-style-type: none; /* Remove bullet points from list */
+}
