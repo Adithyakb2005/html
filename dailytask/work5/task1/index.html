@@ -1,66 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>shoes</title>
-  <link rel="stylesheet" href="./style.css">
-  
-</head>
-<body>
-  <div class="nav">
-    <div class="left">
-      <img src="images/logo.svg" alt="sneakers">
-      <p>Collection</p>
-      <p>Men</p>
-      <p>Women</p>
-      <p>About</p>
-      <p>Contact</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav">
+      <div class="left">
+        <img src="./images/logo.svg" alt="" class="img3" />
+        <span>collections</span>
+        <span>men</span>
+        <span>women</span>
+        <span>about</span>
+        <span>contact</span>
+      </div>
+      <div class="right">
+        <img src="./images/icon-cart.svg" alt="" class="img2" />
+        <img src="./images/image-avatar.png" alt="" class="img1" />
+      </div>
     </div>
-    
-    
-    <div class="image-cart"> 
-      <img class="user" src="images/image-avatar.png" alt="">
-      <img src="./images/icon-cart.svg">
-    </div>
-  </div>
-  <div class="navbar">
-    <div class="box display">
-        <div class="main__image-container">
-            <img src="images/image-product-1.jpg" alt="sneakers shoes white with some beige on the sides" >
-        </div>
-        <div class="n1">
-            
-                <img src="images/image-product-1-thumbnail.jpg"  alt="no1">
-            
-                <img src="images/image-product-2-thumbnail.jpg"  alt="no2">
-            
-            
-                <img src="images/image-product-3-thumbnail.jpg" alt="no3">
-            
-            
-                <img src="images/image-product-4-thumbnail.jpg" alt="no4">
-            
-        </div>
-    </div>
-    <div class="box_content">
-      <p>Sneaker Company</p>
-      <h1>Fall Limited Edition Sneakers</h1>
-      <p >These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, the ll with stand everything the weather can offer.</p>
-      
-          <h2>$125.00 </h2><button>50%</button>
-          
-          <li><del>$250.00</del></li>
-      
-      
-          <div class="add_cart">
+    <hr />
+    <!-- ------------- -->
 
-              <button>
-                  Add to cart
-              </button>
+    <div class="parent">
+      <!-- leftside -->
+      <div class="child1">
+        <img src="./images/image-product-1.jpg" alt="" class="img4" />
+        <div class="imgs">
+          <img
+            src="./images/image-product-1-thumbnail.jpg"
+            alt=""
+            class="imgs2"
+          />
+          <img
+            src="./images/image-product-2-thumbnail.jpg"
+            alt=""
+            class="imgs1"
+          />
+          <img
+            src="./images/image-product-3-thumbnail.jpg"
+            alt=""
+            class="imgs1"
+          />
+          <img
+            src="./images/image-product-4-thumbnail.jpg"
+            alt=""
+            class="imgs1"
+          />
+        </div>
+      </div>
+      <!-- rightside -->
+      <div class="child2">
+        <b><h6>SNEAKER COMPANY</h6></b>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear
+          companion.featuring a durable rubber out sole,they'll with stand
+          everything the weather can offer.
+        </p>
+        <!-- price -->
+        <div class="price">
+          <div class="pric"><h2>$125.00</h2></div>
+          <div class="dis">50%</div>
+        </div>
+        <p class="lt"><b>$250.00</b></p>
+        <!-- button -->
+        <div class="b">
+          <div class="bleft">
+            <button class="b2">
+              <img src="./images/icon-minus.svg" alt="" />
+            </button>
+            <button class="b2"><b>0</b></button>
+            <button class="b2">
+              <img src="./images/icon-plus.svg" alt="" />
+            </button>
           </div>
+          <div class="bright">
+          <button class="b0">
+            <img class="bimg" src="./images/icon-cart.svg" alt="" />add to cart
+          </button>
+        </div>
+        </div>
+      </div>
     </div>
-   </div>
-    
   </body>
-  </html>
+</html>
