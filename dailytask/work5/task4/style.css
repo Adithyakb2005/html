@@ -119,23 +119,7 @@
     .text11>h1{
         color: rgb(228, 150, 163);
     }
-    /* @media (min-width:276) and (max-width:767){
-        .left1{
-            width: 100%;
-        }
-        .right1{
-            width: 100%;
-        }
-    }
     
-    @media (min-width:770) and (max-width:900){
-        .left1{
-            width: 60%;
-        }
-        .right1{
-            width: 40%;
-        }
-    } */
     @media (min-width:1200px) and (max-width:1399.98px){
         .left1{
             width:100%;
