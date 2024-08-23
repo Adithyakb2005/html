@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      background-color:black;
+  }
+  .parent{
+      text-align: center;
+      height:20px;
+      padding:10px;
+      color:white;
+      background-color: rgb(186, 117, 56);
+      font-family: "Roboto", sans-serif;
+  
+  }
+  
+   /* navbar */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+  .nav{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      position: sticky;
+      top: 0; 
+      
+  }
+  .left{
+      /* align-items: center; */
+      margin:10px 30px 10px 30px;
+      justify-content: space-between;
+  }
+  .img1{
+      height:40px;
+      width: 40px;
+      margin: 10px;
+  }
+  
+  
+  .center{
+      margin:30px 0px 30px 0px;
+  }
+  
+  span{
+      margin:10px;
+      color: white;
+      font-family: "Roboto", sans-serif;
+  
+  }
+  .right{
+      margin: 20px;
+  }
+  .image1{
+      margin-left: 20px;
+  }
+  
+      
+  .search-button {
+      background-color: black;
+      width: 150px;
+      height:40px;
+      color: white;
+      border-style: solid;
+      border-color: grey;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px; 
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      line-height: 1; 
+      margin-left: 40px;
+  
+  }
+  
+  .search-icon {
+      margin-left: 10px;
+      width: 20px; 
+      height: 20px;
+      display: block; 
+      
+  }
+  /* ------navbar------ */
+  .main1{
+      background-color: rgb(131, 104, 239);
+      height: 70px;
+  }
+  
+  .m1t1{
+      padding-top:20px;
+      text-align: center;
+      color:white;
+      font-family: "Roboto", sans-serif;
+  }
+  .m1t2{
+      text-align: center;
+      color:white;
+      font-family: "Roboto", sans-serif;
+  }
+  /* section1 */
+  .body2{
+      background-color: rgb(170, 216, 230);
+      height:400px;
+      display: flex;
+  }
+  .body2img{
+      width:100%;
+      height:100%;
+      object-fit:scale-down;    
+  }
+  .body21{
+      flex:1;
+  
+  }
+  .body22{
+      flex:1;
+      
+  }
+  .body23{
+      flex: 1;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-family: "Roboto Condensed", sans-serif;
+      margin-top:150px;
+      font-size: 30px;
+  }
+  .body2buttons1{
+      margin: 10px;
+      width:100px;
+      height: 60px;
+      color:rgb(255, 255, 255);
+      background-color: rgb(4, 4, 4);
+      border:solid black;
+      font-family: "Roboto Condensed", sans-serif;
+      cursor: pointer;
+  
+  }
+  /* section2 */
+  .section2{
+      margin-top: 10px;
+      display: flex;
+      height: 800px;
+      gap: 20px;
+      text-align: center;
+  }
+  .section21{
+      width:50%;
+      background-color: rgb(255, 255, 255);   
+      font-family: "Roboto Condensed", sans-serif; 
+  }
+  .section22{
+      width:50%;
+      background-color: rgb(255, 255, 255);
+      font-family: "Roboto Condensed", sans-serif;
+  }
+  .section2img{
+      width:100%;
+      height:80%;
+      
+  }
+  .section2but{
+      color: white;
+      background-color: black;
+      font-family: "Roboto Condensed", sans-serif;
+      width: 100px;
+      height:30px;
+      margin: 10px;
+      cursor: pointer;
+      border:solid black;
+      cursor: pointer;
+  }
+  /* section3 */
+  .section3{
+      display: flex;
+      height:450px;
+      margin-top: 10px;
+  }
+  .sec31{
+      width:70%;
+      background-color: rgb(46, 55, 55);
+  }
+  .sec32{
+      background-color: rgb(233, 224, 208);
+      width:30%;
+      font-family: "Roboto Condensed", sans-serif;
+      text-align: center;
+      padding: 170px 30px 120px 90px;
+      
+  }
+  .sec3img{
+      width:100%;
+      height:100%;
+  }
+  .sec3but{
+      color: white;
+      background-color:black; 
+      margin:5px;
+      width: 150px;
+      height:40px;
+      border:solid black;
+      cursor: pointer;
+  }
