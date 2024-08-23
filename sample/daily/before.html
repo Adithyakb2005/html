@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Side Shade with ::before</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+            background-color: lightblue;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+
+        .box::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px; /* Width of the shaded area */
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+            /* Fade from semi-transparent black to fully transparent */
+        }
+
+        .image-container {
+            position: absolute;
+            top: 20px; /* Adjust as needed */
+            left: 20px; /* Adjust as needed */
+        }
+
+        .image-container img {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="image-container">
+            <img src="/html/brand/images/image(7).jpg" alt="Anime Girl">
+        </div>
+    </div>
+</body>
+</html>
