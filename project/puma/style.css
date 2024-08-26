@@ -103,7 +103,7 @@
   /* section1 */
   .child1 {
     background-color: rgb(5, 6, 7);
-    height: 400px;
+    height: 70vh;
     display: flex;
     position: relative;
     justify-content: end;
@@ -153,12 +153,14 @@
   
   .categories {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: #000; */
   }
   
   .category {
     text-align: center;
+    margin: 10px;
   }
   
   .category img {
