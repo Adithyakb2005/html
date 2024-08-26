@@ -1,23 +1,467 @@
-*{
-    margin: 0;
+* {
     padding: 0;
-}
-.nav{
-    padding: 5px;
+    margin: 0;
+  }
+  body {
+    background-color: black;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+          
+  
+  
+  .parent {
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(186, 117, 56);
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  /* navbar */
+  .navbar {
+    background-color: rgb(0, 0, 0);
     display: flex;
-    background-color:white;
-    justify-content: space-between;
+    position: sticky;
     top: 0;
-}
-span{
-    margin-top: 0;
-    margin-left: 60px;
-    /* background-color: black; */
-}
-.left>img{
-    width: 50px;
-    background-color: aquamarine;
-    
-    /* width: 100%; */
-    /* height: 50vh; */
-}
+    z-index: 1;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .left {
+    /* align-items: center; */
+    margin: 10px 20px 10px 30px;
+    justify-content: space-between;
+  }
+  .img1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 1px;
+  }
+  
+  .middle {
+    margin: 30px 0px 30px 0px;
+  }
+  
+  span {
+    margin: 10px;
+    color: white;
+  }
+  .right {
+    margin: 20px;
+  }
+  .image1 {
+    margin-left: 20px;
+  }
+  
+  .sbutton {
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-style: solid;
+    border-color: rgb(12, 4, 4);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    transition: 0.5s;
+  }
+  .sbutton:hover{
+      color: black;
+      background-color: rgb(254, 254, 254);
+  }
+  
+  .search-icon {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  /* ------navbar------ */
+  .main1 {
+    background-color: rgb(131, 104, 239);
+    height: 70px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  .m11 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+   
+  }
+  .m12 {
+    text-align: center;
+    color: white;
+  
+  }
+  /* section1 */
+  .child1 {
+    background-color: rgb(5, 6, 7);
+    height: 400px;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .body2img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .body23 {
+    position: absolute;
+  
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  .body2buttons1 {
+    margin: 5px;
+    width: 120px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: solid white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .body2buttons1:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  /* Savings Section */
+.savings {
+    padding: 60px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .savings h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .category p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /* section2 */
+  .section2 {
+    margin-top: 10px;
+    display: flex;
+    height: 800px;
+    gap: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .section21 {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  .section22 {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  .section2img {
+    width: 100%;
+    height: 80%;
+  }
+  .section2but {
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: solid black;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .section2but:hover{
+      color:black;
+      background-color: white;
+  }
+  /* section3 */
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .sec31 {
+    width: 70%;
+    background-color: rgb(46, 55, 55);
+    flex: 2;
+  }
+  .sec32 {
+    background-color: rgb(233, 224, 208);
+    width: 30%;
+    flex: 1;
+    text-align: center;
+    padding: 170px 30px 120px 90px;
+    /* padding: 30px 10px; */
+  }
+  .sec3img {
+    width: 100%;
+    height: 100%;
+  }
+  .sec3but {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    border: solid black;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .sec3but:hover{
+      color: black;
+      background-color: white;
+  }
+  
+  /* section4 */
+  .section4 {
+    margin-top: 10px;
+    display: flex;
+    overflow-y: hidden;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+  }
+  .sec41 {
+    min-width: 250px;
+    height: 320px;
+    background-color: rgb(207, 204, 204);
+    margin-left: 30px;
+    transition: 0.6s;
+  }
+  .sec4img {
+    width: 100%;
+    height: 250px;
+  }
+  .sec41:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  }
+  .sec4div {
+    display: flex;
+  }
+  .sec41left {
+    display: absolute;
+    max-width: 200px;
+    margin-left: 10px;
+  }
+  .sec41right {
+    text-align: center;
+    margin-top: 4px;
+    margin-left:5px;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 8px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(201, 197, 197);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(87, 84, 84);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+  }
+  /* section5 */
+  .section5{
+              margin-top: 20px;
+              width: 100%;
+              height:20vh;
+              font-family: "Roboto Condensed", sans-serif;
+          }
+          .sec51{
+            position: absolute;
+            top: 350;
+            margin-top: 250px;
+            margin-left: 20PX;
+            left:20;
+            background-color: aqua;
+            width:98vh;
+            height:60vh;
+            z-index: -1;
+        }
+        .sec52{
+            position: absolute;
+            top:40;
+            left:600px;
+            background-color:blue;
+            width: 100vh;
+            height: 110vh;
+            z-index: -2;
+            
+        }
+        .sec53{
+            position: absolute;
+            top:60;
+            left: 0;
+            z-index: -3;
+            background-color: rgb(77, 75, 75);
+            width:100%;
+            height: 80vh;
+            margin-top: 40px;
+        }
+        .sec5img{
+            width: 100%;
+            height: 100%;
+        }
+        .sec5text1{
+            margin-left: 20px;
+            color: white;
+            margin-top:40px;
+        }
+        .sec5text2{
+            position: absolute;
+            top: 60;
+            margin-left: 20px;
+            margin-top: 5px;
+            left: 20;
+            color: white;
+        }
+        .sec5but1{
+            position: absolute;
+            top:120;
+            margin-top: 50px;
+            margin-left: 20px;
+            height: 50px;
+            width:150px;
+            left: 20;
+            border: none;
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+        .sec5but2{
+            position: absolute;
+            top:120;
+            margin-top: 50px;
+            margin-left: 190px;
+            height:50px;
+            width:150px;
+            border: none;
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+            left: 200;
+        }
+        .sec5but2:hover{
+            background-color: black;
+            color:white;
+        }
+        .sec5but1:hover{
+            background-color: black;
+            color:white;
+        }
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .header-section, .palermo-section {
+          background-color: #f4f4f4;
+          padding: 50px 0;
+      }
+      
+      .promo-image {
+          width: 50%;
+      }
+      
+      .promo-text {
+          width: 40%;
+      }
+      
+      .promo-text h1 {
+          font-size: 36px;
+          margin-bottom: 20px;
+      }
+      
+      .promo-text p {
+          font-size: 24px;
+          margin-bottom: 20px;
+      }
+      
+      .shop-btn {
+          background-color: #000;
+          color: #fff;
+          padding: 10px 20px;
+          text-transform: uppercase;
+          border: none;
+          cursor: pointer;
+          margin-right: 10px;
+          font-size: 16px;
+      }
+      
+      .shop-btn:hover {
+          background-color: #555;
+      }
+      
+      .products-section {
+          padding: 50px 0;
+          background-color: #fff;
+      }
+      
+      .product-card {
+          background-color: #fff;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          width: 30%;
+          text-align: center;
+          border-radius: 8px;
+      }
+      
+      .product-card img {
+          width: 100%;
+          border-radius: 8px;
+          margin-bottom: 20px;
+      }
+      
+      .product-card h2 {
+          font-size: 22px;
+          margin-bottom: 10px;
+      }
+      
+      .product-card p {
+          font-size: 16px;
+          margin-bottom: 20px;
+      }
