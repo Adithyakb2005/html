@@ -3,27 +3,7 @@
     <title>Book My Show</title>
         <link rel="stylesheet" type="text/css" href="CSS/myStyle.css">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="text/javascript" src="js/jsFile.js"></script>
-
-        <script language="javascript">
-            function ok(){
-                var a=(prompt("enter yes to confirm"))
-                var b="yes"
-                if(a==b){
-                    alert("Thank you, you booking have been confirmed. Have a great day ahead.")
-                }
-            }
-
-            function lossUnsaved(){
-                            window.addEventListener("beforeunload", function (e) {
-                    var confirmationMessage = 'It looks like you have been editing something. '
-                                            + 'If you leave before saving, your changes will be lost.';
-
-                    (e || window.event).returnValue = confirmationMessage; //Gecko + IE
-                    return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
-                });
-            }
-        </script>
+       
         
 </head>
 <body id="paymentBody">
