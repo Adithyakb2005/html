@@ -1,0 +1,43 @@
+
+<!-- saved from url=(0012)about:srcdoc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      img {
+        position: absolute;
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="js-promotion-banner" loading="lazy" onclick="handleBannerClick(event)" src="https://assets-in.bmscdn.com/promotions/cms/creatives/1717082518448_playcardweb.jpg" alt="promotion-banner">
+    <script>
+      function handleBannerClick(event) {
+        event.preventDefault();
+        if ("https://in.bookmyshow.com/play-credit-card?ad=movielisting") {
+          let xhr = new XMLHttpRequest();
+          xhr.open("GET", "https://adtech-events.bookmyshow.com/adevent/v2/click?reqid=2d36df1f-923a-41e5-882a-d325c1449db2");
+          xhr.send();
+		  if('prod_desktop_ml_carousel_1'){
+              window.parent.BMSSDK.fireImpression("prod_desktop_ml_carousel_1")
+        	}
+          window.open("https://in.bookmyshow.com/play-credit-card?ad=movielisting");
+        }
+      }
+	  if (!'https://in.bookmyshow.com/play-credit-card?ad=movielisting') {
+        var imgId = document.getElementById("js-promotion-banner");
+        if (imgId) {
+          imgId.style.cursor = "default";
+        }
+      }
+    </script>
+  
+</body></html>
