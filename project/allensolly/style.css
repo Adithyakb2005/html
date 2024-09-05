@@ -1,0 +1,268 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    
+    display: flex;
+    min-height: px;
+}
+.nav1{
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+}
+.navbar-left img{
+   
+    margin-left: 80px;
+    width: 100px;
+    height: 60px;
+
+} */
+
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-bar .left a {
+    font-weight: bold;
+}
+
+.top-bar .right a {
+    margin-left: 15px;
+}
+
+.icon-heart::before,
+.icon-cart::before {
+    content: '❤️'; /* You can replace this with actual icons */
+    margin-right: 5px;
+}
+
+/* Main Header */
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #0073e6;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('./image/background-image.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: white;
+    padding: 50px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.shop-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: #f8f8f8;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.category p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-bar .left a {
+    font-weight: bold;
+}
+
+.top-bar .right a {
+    margin-left: 15px;
+}
+
+.icon-heart::before,
+.icon-cart::before {
+    content: '❤️'; 
+    margin-right: 5px;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a.sale {
+    color: red;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-icon {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+.express-delivery {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aditya-birla-logo {
+    height: 40px;
+} */
