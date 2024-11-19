@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book tickets for movies, events, plays, sports, and activities. Explore exclusive premieres and live events with Book My Show." />
+    <meta name="keywords" content="movies, events, ticket booking, live shows, sports, plays" />
+    <meta property="og:title" content="Book My Show" />
+    <meta property="og:description" content="Book tickets for movies, events, plays, sports, and activities. Explore exclusive premieres and live events with Book My Show." />
+    <meta property="og:image" content="{% static 'images/bookmyshow-logo.png' %}" />
+    <title>Book My Show</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <!------------------ navbar ---------------------->
+    <nav role="navigation">
+      <div class="navleft">
+        <div class="navimg">
+          <img
+            src="{% static 'images/189-1896899_bookmyshow-logo-hd-png-download.webp' %}"
+            alt="Book My Show Logo"
+          />
+        </div>
+        <div class="navsearch-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="text"
+            placeholder="Search for movies, events, plays, sports, and activities"
+            aria-label="Search"
+          />
+        </div>
+      </div>
+
+      <div class="navright">
+        <div class="navright1">
+          <button class="navbut1">kochi</button>
+          <button class="navbut2">sign in</button>
+        </div>
+        <div class="navright2">
+          <img
+            src="{% static 'images/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png' %}"
+            alt="Menu Icon"
+          />
+        </div>
+      </div>
+    </nav>
+    <nav class="nav2" role="navigation">
+      <div class="nav2left">
+        <span>movies</span>
+        <span>stream</span>
+        <span>events</span>
+        <span>plays</span>
+        <span>sports</span>
+        <span>activities</span>
+      </div>
+      <div class="nav2right">
+        <span>ListYourShow </span>
+        <span>Corporates</span>
+        <span>Offers</span>
+        <span>Gift Cards</span>
+      </div>
+    </nav>
+    <!-- section1 -->
+    <div class="section1">
+      <div><img src="{% static 'images/1717080055549_playcardweb.avif' %}" alt="Featured movie 1" /></div>
+      <div><img src="{% static 'images/1725086850519_1sepredfmlivewithsonunigam1240x300.avif' %}" alt="Featured event 1" /></div>
+      <div><img src="{% static 'images/1725254659586_exhumareviewwebstream.avif' %}" alt="Featured event 2" /></div>
+    </div>
+    <!-- section2 -->
+    <div class="section2">
+      <div class="sec2left"><p><b>Recommended Movies</b></p></div>
+      <div class="sec2right"><p>see all</p></div>
+    </div>
+    <div class="section2c">
+      <div class="sec2divc">
+        <div class="sec2img"><a href="new1">
+          <img src="{% static 'images/Vaazha.webp' %}" alt="Vaazha Movie Poster"></a></div>
+        <div class="sec2name"><span>9/10 20k Vote</span></div>
+        <div class="sec2dis"><b>VAZHA</b>-comedy/drama</div>
+      </div>
+      <div class="sec2divc">
+        <div class="sec2img"><img src="{% static 'images/MV5BNmUxYzA3NTMtMTQ4NS00YmIzLTg3NzAtNzMzNmQzZmViOWE5XkEyXkFqcGdeQXVyMjkxNzQ1NDI@.webp' %}" alt="Anadam Movie Poster"></div>
+        <div class="sec2name">8/10 20k Vote</div>
+        <div class="sec2dis"><b>ANADAM</b>-comedy/action</div>
+      </div>
+      <div class="sec2divc">
+        <div class="sec2img"><img src="{% static 'images/xguc3XPxw0VJZzCa4wvmn7Od1Iq.webp' %}" alt="Nunakkuzhi Movie Poster"></div>
+        <div class="sec2name">9/10 20k Vote</div>
+        <div class="sec2dis"><b>NUNAKKUZHI</b>-comedy/thriller</div>
+      </div>
+      <div class="sec2divc">
+        <div class="sec2img"><img src="{% static 'images/bharathanatyam-20240731145019-23080.webp' %}" alt="Bharathanatyam Movie Poster"></div>
+        <div class="sec2name">7/10 20k Vote</div>
+        <div class="sec2dis"><b>BHARATHANATYAM</b>-drama/family</div>
+      </div>
+      <div class="sec2divc">
+        <div class="sec2img"><img src="{% static 'images/moana-2-poster-1-400x600.webp' %}" alt="Moana 2 Movie Poster"></div>
+        <div class="sec2name">9/10 20k Vote</div>
+        <div class="sec2dis"><b>Moana 2</b>-action/animation</div>
+      </div>
+      <div class="sec2divc">
+        <div class="sec2img"><img src="{% static 'images/movie-poster-aliens-sigourney-weaver-h-r-giger-wallpaper-preview.webp' %}" alt="Aliens Movie Poster"></div>
+        <div class="sec2name">8/10 20k Vote</div>
+        <div class="sec2dis"><b>Aliens</b>-crime/action</div>
+      </div>
+    </div>
+    <!-- section3 -->
+    <div class="sec31">
+      <img src="{% static 'images/stream-leadin-web-collection-202210241242.avif' %}" alt="Stream Lead" />
+      <p><b>The Best of Live Events</b></p>
+    </div>
+    <div class="sec33">
+      <div class="sec33c"><img src="{% static 'images/bmshp-desktop-amusement-park-collection-202404190106.avif' %}" alt="Amusement Park"></div>
+      <div class="sec33c"><img src="{% static 'images/workshop-and-more-web-collection-202211140440.avif' %}" alt="Workshop Event"></div>
+      <div class="sec33c"><img src="{% static 'images/bmshp-desktop-kids-collection-202404190106.avif' %}" alt="Kids Events"></div>
+      <div class="sec33c"><img src="{% static 'images/comedy-shows-collection-202211140440.avif' %}" alt="Comedy Shows"></div>
+      <div class="sec33c"><img src="{% static 'images/music-shows-collection-202211140440.avif' %}" alt="Music Shows"></div>
+    </div>
+    <!-- section4 -->
+    <div class="section4">
+      <div class="sec41">
+        <div class="sec41head1">
+          <img
+            src="{% static 'images/play-button.png' %}"
+            alt=""
+          />
+        </div>
+        <div class="sec41head2">
+          <ul>
+            <li class="sec4li1"><b>PRIMIER</b></li>
+            <li class="sec4li2">watch new movie at home, every friday</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sec42">
+        <div class="sec42left">
+          <ul>
+            <li class="sec4li1"><b>premier</b>s</li>
+            <li>brand new release every friday</li>
+          </ul>
+        </div>
+        <div class="sec42right">see more</div>
+      </div>
+      <div class="sec43">
+        <div class="sec43c">
+          <div class="sec43img"><img src="{% static 'images/et00408373-zekqewelca-portrait.avif' %}" alt="" /></div>
+          <div class="sec45cdis"></div>
+          <li><b>twister & san Andress</b></li>
+          <li>English</li>
+        </div>
+        <div class="sec43c">
+          <div class="sec43img">
+            <img src="{% static 'images/et00403314-dcywkhybes-portrait.avif' %}" alt="" />
+          </div>
+          <div class="sec45cdis">
+            <li><b>Annete</b></li>
+            <li>English</li>
+          </div>
+        </div>
+        <div class="sec43c">
+          <div class="sec43img">
+            <img src="{% static 'images/et00395059-lxvhfhkrfb-portrait.avif' %}" alt="" />
+          </div>
+          <div class="sec45cdis">
+            <li><b>fly me to the moon</b></li>
+            <li>English</li>
+          </div>
+        </div>
+        <div class="sec43c">
+          <div class="sec43img">
+            <img src="{% static 'images/et00387070-mqkqrqvnda-portrait.avif' %}" alt="" />
+          </div>
+          <div class="sec45cdis">
+            <li><b>twisters(preview)</b></li>
+            <li>English</li>
+          </div>
+        </div>
+        <div class="sec43c">
+          <div class="sec43img">
+            <img src="{% static 'images/et00400807-gctmjvgfya-portrait.avif' %}" alt="" />
+          </div>
+          <div class="sec45cdis">
+            <li><b>Pullu Rising</b></li>
+            <li>malayalam</li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section5 -->
+    <div class="section5">
+      <div class="sec51">
+        <h1><b>Book Your Show</b></h1>
+      </div>
+      <div class="sec52">
+        <div class="sec52left">
+          <ul>
+            <li><span>Theater Booking</span></li>
+            <li><span>Movie Booking</span></li>
+            <li><span>Event Tickets</span></li>
+            <li><span>Discount Coupons</span></li>
+          </ul>
+        </div>
+        <div class="sec52right">
+          <ul>
+            <li><span>Upcoming Events</span></li>
+            <li><span>Special Offers</span></li>
+            <li><span>New Releases</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer1">
+        <div class="footerlogo">
+          <img src="{% static 'images/bookmyshow-footer-logo.png' %}" alt="Book My Show Footer Logo" />
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footer2left">
+          <p>© 2024 Book My Show. All rights reserved.</p>
+        </div>
+        <div class="footer2right">
+          <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
